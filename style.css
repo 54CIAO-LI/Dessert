@@ -52,7 +52,7 @@
         }
     }
     
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 378px) {
         .para {
             width: 280px;
         }
