@@ -1,0 +1,59 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    body {
+        background-color: #F1EEEB;
+        font-family: 'Noto Serif TC', 'Noto Sans TC', 'Gill sans', 'Arial', '微軟正黑體', sans-serif;
+    }
+    
+    img {
+        display: block;
+    }
+    
+    section {
+        margin: 80px auto;
+        /* border-top: 1px solid #232323;
+        border-bottom: 1px solid #232323;
+        padding: 40px 0; */
+    }
+    
+    .para {
+        width: 620px;
+    }
+    
+    .para h1 {
+        font-size: 36px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    
+    .para p {
+        text-align: left;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 32px;
+    }
+    
+    @media screen and (max-width: 780px) {
+        .para {
+            width: 530px;
+        }
+    }
+    
+    @media screen and (max-width: 414px) {
+        .para {
+            width: 362px;
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        .para {
+            width: 280px;
+        }
+    }
