@@ -25,7 +25,6 @@
     
     .img_1 img {
         display: block;
-        margin-top: 30px;
         width: 620px;
         box-shadow: 10px 10px 0 #272727;
     }
@@ -44,13 +43,16 @@
     .para p {
         text-align: left;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 18px;
         letter-spacing: 1px;
-        line-height: 32px;
+        line-height: 42px;
     }
     
     @media screen and (max-width: 780px) {
         .para {
+            width: 530px;
+        }
+        .img_1 img {
             width: 530px;
         }
     }
@@ -59,10 +61,16 @@
         .para {
             width: 362px;
         }
+        .img_1 img {
+            width: 362px;
+        }
     }
     
     @media screen and (max-width: 378px) {
         .para {
+            width: 280px;
+        }
+        .img_1 img {
             width: 280px;
         }
     }
