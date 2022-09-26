@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1EEEB;
+    font-family: 'Press Start 2P', cursive, 'Noto Serif TC', 'Noto Sans TC', 'Gill sans', 'Arial', '微軟正黑體', sans-serif;
+    color: #272727;
+    text-align: center;
+}
