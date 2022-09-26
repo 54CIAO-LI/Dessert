@@ -1,12 +1,56 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #F1EEEB;
-    font-family: 'Press Start 2P', cursive, 'Noto Serif TC', 'Noto Sans TC', 'Gill sans', 'Arial', '微軟正黑體', sans-serif;
-    color: #272727;
-    text-align: center;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #F8F3EF;
+        font-family: 'Press Start 2P', 'Noto Serif TC', 'Noto Sans TC', 'Gill sans', 'Arial', '微軟正黑體', sans-serif, cursive;
+        color: #24211E;
+        text-align: center;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    section {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    section h3 {
+        font-family: 'Noto Serif TC', 'Noto Sans TC', 'Gill sans', 'Arial', '微軟正黑體', sans-serif;
+        font-size: 48px;
+        letter-spacing: 20px;
+        line-height: 2;
+        margin-bottom: 25px;
+    }
+    
+    section a {
+        border: none;
+        background-color: #24211E;
+        color: #F8F3EF;
+        letter-spacing: 2px;
+        padding: 10px;
+        margin-right: 20px;
+        animation: btn 3s ease infinite;
+        transition: .5s;
+    }
+    
+    @keyframes btn {
+        50% {
+            color: #C6C2BF;
+            letter-spacing: 5px;
+        }
+    }
+    
+    section a:hover {
+        box-shadow: 10px 10px 0 #C6C2BF;
+        filter: sepia(.8);
+    }
